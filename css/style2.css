@@ -218,7 +218,7 @@ body{
 				background-repeat: no-repeat;
 				background-size: contain;
 	}
-	.saga2{
+	.saga2, .saga{
 		grid-column: 9/11;
 	}
 	.youtube{
