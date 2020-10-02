@@ -199,6 +199,14 @@ body{
 				position: absolute;
 				z-index: -10;
 			}
+			#iframe3 iframe, #iframe3 object, #iframe3 embed {
+						height: 50%;
+						top: 60px;
+						width: 90%;
+						right: 5vh;
+						position: fixed;
+						z-index: -10;
+					}
 	.manga42, .manga43, .manga44, .manga45, .manga46, .manga47, .manga63, .manga64{
 				width: 90%;
 				height: 150px;
@@ -215,7 +223,7 @@ body{
 	.left{
 		padding-left: 15vh;
 		z-index: -10;
-		padding-top: 88vh;
+		padding-top: 58vh;
 		grid-column: 2/12;
 	}
 }
