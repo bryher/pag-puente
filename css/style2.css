@@ -1,0 +1,207 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #cbb87c;
+}
+.navbar{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	position:fixed;
+	top: 0;
+}
+.youtube{
+	width: 45px;
+	grid-column: 12/13;
+	margin: auto;
+	display: block;
+	padding: 0 3px;
+	}
+.youtube:hover{
+	background: #c2c2c2;
+}
+.saga{
+	-webkit-filter: opacity(90%);
+	filter: opacity(90%);
+	grid-column: 11/12;
+	margin: auto;
+	display: block;
+}
+.saga img{
+	width: 45px;
+}
+.saga:hover{
+	padding: 0 3px;
+	background: #85995c;
+	-webkit-filter: opacity(100%);
+	filter: opacity(100%);
+}
+.saga2{
+	grid-column: 11/12;
+	margin: auto;
+	display: block;
+	background: #c2c2c2;
+	padding: 0 3px;
+}
+.saga2 img{
+	width: 45px;
+}
+.home{
+	grid-column: 1/2;
+	margin: auto;
+	display: block;
+}
+.home img{
+	width: 45px;
+}
+.portada1{
+	border: 4px solid white;
+	margin: 55px auto;
+	width: 95%;
+	height: 300vh;
+	background-image: url(../img/DBS/portada-moro1_opt.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.center-sect{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+.right{
+	height: 90%;
+	padding-top: 65px;
+	overflow-x: hidden;
+}
+#iframe {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    }
+#iframe iframe, #iframe object, #iframe embed {
+    height: 40%;
+		top: 75px;
+    right: 10vw;
+    position: fixed;
+    width: 50%;
+  }
+	#iframe2 {
+	    overflow: hidden;
+	    padding-bottom: 56.25%;
+	    }
+	#iframe2 iframe, #iframe2 object, #iframe2 embed {
+	    height: 40%;
+			top: 50vh;
+	    right: 10vw;
+	    position: fixed;
+	    width: 50%;
+	  }
+	#iframe3 {
+		    overflow: hidden;
+		    padding-bottom: 56.25%;
+		    }
+	#iframe3 iframe, #iframe3 object, #iframe3 embed {
+		    height: 60%;
+				top: 75px;
+		    right: 15px;
+		    position: fixed;
+		    width: 70%;
+		  }
+
+.left{
+	padding-top: 65px;
+	background-color: #6e6e6e;
+	grid-column: 1/4;
+}
+.manga42, .manga43, .manga44, .manga45, .manga46, .manga47, .manga63, .manga64{
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.manga42{
+	background-image: url(../img/DBS/42_opt.webp);
+}
+.manga43{
+	background-image: url(../img/DBS/43_opt.webp);
+}
+.manga44{
+	background-image: url(../img/DBS/44_opt.webp);
+}
+.manga45{
+	background-image: url(../img/DBS/45_opt.webp);
+}
+.manga46{
+	background-image: url(../img/DBS/46_opt.webp);
+}
+.manga47{
+	background-image: url(../img/DBS/47_opt.webp);
+}
+.manga63{
+	background-image: url(../img/DBS/63_opt.webp);
+}
+.manga64{
+	background-image: url(../img/DBS/64_opt.webp);
+}
+.siguiente{
+	width: 50px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+@media (max-width: 840px){
+	#iframe {
+	    overflow: hidden;
+	    padding-bottom: 56.25%;
+	    }
+	#iframe iframe, #iframe object, #iframe embed {
+	    height: 45%;
+			top: 50px;
+	    right: 0;
+	    position: fixed;
+	    width: 75%;
+	  }
+	#iframe2 {
+		    overflow: hidden;
+		    padding-bottom: 56.25%;
+		    }
+	#iframe2 iframe, #iframe2 object, #iframe2 embed {
+		    height: 45%;
+				top: 50vh;
+		    right: 0;
+		    position: fixed;
+		    width: 75%;
+		  }
+}
+@media (max-width: 840px){
+	.left{
+			grid-column: 2/12;
+	}
+	#iframe iframe, #iframe object, #iframe embed {
+			height: 30%;
+			top: 50px;
+			width: 60%;
+			right: 15vh;
+		}
+	#iframe2 {
+				overflow: hidden;
+				padding-bottom: 56.25%;
+				}
+	#iframe2 iframe, #iframe2 object, #iframe2 embed {
+				height: 30%;
+				top: 35vh;
+				width: 60%;
+				right: 15vh;
+			}
+	.manga42, .manga43, .manga44, .manga45, .manga46, .manga47, .manga63, .manga64{
+				width: 90%;
+				height: 150px;
+				margin: auto;
+				background-repeat: no-repeat;
+				background-size: contain;
+	}
+}
