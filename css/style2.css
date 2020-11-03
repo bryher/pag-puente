@@ -4,17 +4,23 @@
 	padding: 0;
 }
 body{
-	background: #cbb87c;
+	background: #000;
 }
 .navbar{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
 	height: 55px;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	position:fixed;
 	top: 0;
 	z-index: 10;
+}
+.separator{
+	width: 100%;
+	height: 2px;
+	background: #42ffa7;
+	grid-column: 1/13;
 }
 .youtube{
 	width: 45px;
@@ -42,16 +48,6 @@ body{
 	-webkit-filter: opacity(100%);
 	filter: opacity(100%);
 }
-.saga2{
-	grid-column: 11/12;
-	margin: auto;
-	display: block;
-	background: #c2c2c2;
-	padding: 0 3px;
-}
-.saga2 img{
-	width: 45px;
-}
 .home{
 	grid-column: 1/2;
 	margin: auto;
@@ -60,197 +56,27 @@ body{
 .home img{
 	width: 45px;
 }
-.portada1{
-	border: 4px solid white;
-	margin: 55px auto;
-	width: 95%;
-	height: 300vh;
-	background-image: url(../img/DBS/portada-moro1_opt.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-.center-sect{
+.contenido{
+	margin: 0 auto;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
-.right{
-	height: 90%;
-	padding-top: 65px;
-	overflow-x: hidden;
-}
-#iframe {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    }
-#iframe iframe, #iframe object, #iframe embed {
-    height: 40%;
-		top: 75px;
-    right: 10vw;
-    position: fixed;
-    width: 50%;
-  }
-	#iframe2 {
-	    overflow: hidden;
-	    padding-bottom: 56.25%;
-	    }
-	#iframe2 iframe, #iframe2 object, #iframe2 embed {
-	    height: 40%;
-			top: 50vh;
-	    right: 10vw;
-	    position: fixed;
-	    width: 50%;
-	  }
-	#iframe3 {
-		    overflow: hidden;
-		    padding-bottom: 56.25%;
-		    }
-	#iframe3 iframe, #iframe3 object, #iframe3 embed {
-		    height: 60%;
-				top: 75px;
-		    right: 15px;
-		    position: fixed;
-		    width: 70%;
-		  }
-
-.left{
-	padding-top: 65px;
-	background-color: #6e6e6e;
-	grid-column: 1/4;
-}
-.manga42, .manga43, .manga44, .manga45, .manga46, .manga47, .manga63, .manga64{
-	width: 90%;
-	height: 150px;
-	margin: auto;
+.portada1{
+	grid-column: 1/9;
+	margin: 55px 0;
+	width: 95%;
+	height: 300vh;
+	background-image: url(../img/DBS/Saga-de-Moro.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.manga42{
-	background-image: url(../img/DBS/42_opt.webp);
+.titulo{
+	grid-column: 9/13;
+	color: #658a9a;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	font-size: 3em;
+	margin: 55px 0;
+	font-family: 'Raleway', sans-serif;
 }
-.manga43{
-	background-image: url(../img/DBS/43_opt.webp);
-}
-.manga44{
-	background-image: url(../img/DBS/44_opt.webp);
-}
-.manga45{
-	background-image: url(../img/DBS/45_opt.webp);
-}
-.manga46{
-	background-image: url(../img/DBS/46_opt.webp);
-}
-.manga47{
-	background-image: url(../img/DBS/47_opt.webp);
-}
-.manga63{
-	background-image: url(../img/DBS/63_opt.webp);
-}
-.manga64{
-	background-image: url(../img/DBS/64_opt.webp);
-}
-.siguiente{
-	width: 50px;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-}
-@media (max-width: 840px){
-	#iframe {
-	    overflow: hidden;
-	    padding-bottom: 56.25%;
-	    }
-	#iframe iframe, #iframe object, #iframe embed {
-	    height: 45%;
-			top: 50px;
-	    right: 0;
-	    position: fixed;
-	    width: 75%;
-	  }
-	#iframe2 {
-		    overflow: hidden;
-		    padding-bottom: 56.25%;
-		    }
-	#iframe2 iframe, #iframe2 object, #iframe2 embed {
-		    height: 45%;
-				top: 50vh;
-		    right: 0;
-		    position: fixed;
-		    width: 75%;
-		  }
-	#iframe3 iframe, #iframe3 object, #iframe3 embed {
-						height: 40vh;
-						top: 75px;
-				    right: 15px;
-	 }
-
-}
-@media (max-width: 700px){
-
-	#iframe iframe, #iframe object, #iframe embed {
-			height: 40%;
-			top: 60px;
-			width: 90%;
-			right: 5vh;
-			position: absolute;
-		}
-	#iframe2 {
-				overflow: hidden;
-				padding-bottom: 56.25%;
-				}
-	#iframe2 iframe, #iframe2 object, #iframe2 embed {
-				height: 40%;
-				top: 48vh;
-				width: 90%;
-				right: 5vh;
-				position: absolute;
-			}
-			#iframe3 iframe, #iframe3 object, #iframe3 embed {
-						height: 50%;
-						top: 60px;
-						width: 90%;
-						right: 5vh;
-						position: fixed;
-					}
-	.manga42, .manga43, .manga44, .manga45, .manga46, .manga47, .manga63, .manga64{
-				width: 90%;
-				height: 150px;
-				margin: auto;
-				background-repeat: no-repeat;
-				background-size: contain;
-	}
-	.saga2, .saga{
-		grid-column: 9/11;
-	}
-	.youtube{
-		grid-column: 11/13;
-	}
-	.left{
-		padding-left: 15vh;
-		padding-top: 58vh;
-		grid-column: 2/12;
-	}
-}
-@media (max-width: 600px){
-		#iframe iframe, #iframe object, #iframe embed {
-			width: 100%;
-			right: 0;
-		}
-		#iframe2 iframe, #iframe2 object, #iframe2 embed {
-			width: 100%;
-			right: 0;
-		}
-		.left{
-			padding-left: 7vh;
-		}
-		#iframe3 iframe, #iframe3 object, #iframe3 embed {
-							height: 40vh;
-							top: 75px;
-							right: 0;
-							width: 100%;
-		 }
-
-}
-@media (max-width: 500px){
-	.left{
-		padding-left: 3vh;
-	}}
