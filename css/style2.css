@@ -76,39 +76,40 @@ body{
 	grid-column: 1/9;
 	margin: 55px 0;
 	width: 100%;
-	height: 90vh;
+	height: 280px;
 	background-image: url(../img/DBS/Saga-de-Moro.webp);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	display: grid;
-	grid-template-columns: repeat(12, 1fr)
+	grid-template-columns: repeat(12, 1fr);
+	background-position: center;
 }
 .manga42-1{
-	height: 90vh;
+	height: 500px;
 	display: flex;
 	grid-column: 1/11;
 	margin: 55px 0;
 	width: 100%;
 	background-image: url(../img/DBS/1manga42.webp);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	background-position: center;
 }
 .titulo{
 	color: #ff00a6;
 	font-size: 2em;
 	font-family: 'Raleway', sans-serif;
 	grid-column: 1/13;
+	height: 56px;
 }
 .titulo2 span{
+	padding: 0 5px;
 	grid-column: 1/3;
 	display: block;
-	color: #e1ab47;
+	color: #ff007b;
 	font-size: 1.6em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-}
-.titulo2{
-		margin-left: 20px;
 }
 .titulo h1{
 	text-align: center;
@@ -117,14 +118,21 @@ body{
 	grid-column: 11/13;
 	margin: 120px 0 0;
 }
+.description3{
+	grid-column: 9/13;
+	margin: 120px 0 0;
+}
 .description1{
 	display: none;
 	margin-left: auto;
 	margin-top: 50px;
 }
+.description2{
+	display: none;
+}
 h3{
 	text-align: center;
-	color: #9fb734;
+	color: #ffd21f;
 	font-size: 1em;
 	font-family: 'Raleway', sans-serif;
 }
@@ -152,7 +160,10 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 }
 
 /* media query */
-
+@media (max-width: 1000px){
+	.manga42-1{
+		height: 400px;}
+}
 @media (max-width: 800px){
 	.portada1{
 		grid-column: 1/10;
@@ -162,7 +173,11 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 		margin: 90px 0;
 	}
 	.manga42-1{
+		height: 300px;
 		grid-column: 1/10;
+	}
+	.description3{
+		grid-column: 10/13;
 	}
 }
 @media (max-width: 650px) {
@@ -178,12 +193,26 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 	.portada1{
 		grid-column: 2/12;
 	}
-	.description1{
+	.description1, .description2{
 		display: block;
 		grid-column: 1/13;
 	}
 	.manga42-1{
 		grid-column: 2/12;
+	}
+	.description3{
+		display: none;
+	}
+	.titulo2{
+		background-color: black;
+	}
+	.titulo2 span{
+		color: white;
+	}
+	.description1 h3{
+		background-color: black;
+		border-radius: 7px;
+		padding: 5px;
 	}
 }
 @media (max-width: 550px) {
@@ -193,4 +222,5 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 	.manga42-1{
 		grid-column: 1/13;
 	}
+
 }
