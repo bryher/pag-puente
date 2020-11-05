@@ -24,7 +24,6 @@ body{
 }
 .separator{
 	width: 100%;
-	height: 1.1px;
 	background: #808080;
 	grid-column: 1/13;
 }
@@ -188,7 +187,7 @@ body{
 	margin: auto;
 	width: 100%;
 	height: 500px;
-	transition:all 4s ease-in-out;
+	transition:all 3s;
 }
 .banner:hover{
 	filter: grayscale(0%);
@@ -205,7 +204,7 @@ body{
 	border-radius: 5px;
 	width: 200px;
 	font-weight: bold;
-	transition:all 6s ease-in-out;
+	transition:all 3s;
 }
 .container{
 	overflow:hidden;
@@ -472,5 +471,11 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 	#miModal{
 		width: 100%;
 		top: 0;
+	}
+	.parr p{
+		font-size: 0.8em;
+	}
+	.parr h3{
+		font-size: 1em;
 	}
 }
