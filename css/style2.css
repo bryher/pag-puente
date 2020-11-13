@@ -357,26 +357,23 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 	width: 100%;
 }
 .ads{
-	text-align: center;
-	background: #78ad52;
+	/* text-align: center; */
 	display: flex;
 }
 .ads-img{
-	width: 120px;;
+	width: 120px;
 	margin-right: auto;
 }
 .parr{
 	width: 50%;
-	margin-left: auto;
+	/* margin-left: auto; */
+	color: white;
 }
 .parr p{
 	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	color: black;
 }
 .parr h3{
 	font-size: 2em;
-	color: black;
 }
 .spoiler-66{
 	display: grid;
