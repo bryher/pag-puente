@@ -29,18 +29,15 @@ body{
 }
 .youtube{
 	width: 45px;
-	grid-column: 12/13;
+	grid-column: 11/12;
 	margin: auto;
 	display: block;
 	padding: 0 3px;
 	}
-.youtube:hover{
-	background: #c2c2c2;
-}
 .saga{
 	-webkit-filter: opacity(90%);
 	filter: opacity(90%);
-	grid-column: 11/12;
+	grid-column: 10/11;
 	margin: auto;
 	display: block;
 }
@@ -53,8 +50,14 @@ body{
 	-webkit-filter: opacity(100%);
 	filter: opacity(100%);
 }
+.facebook{
+	grid-column: 12/13;
+	width: 35px;
+	display: block;
+	margin: auto;
+}
 .saga1{
-	grid-column: 11/12;
+	grid-column: 10/11;
 	margin: auto;
 	display: block;
 	background: #b6359c;
@@ -455,9 +458,12 @@ box-shadow: -1px 0px 76px 21px rgba(226,255,3,1);
 		width: 85%;
 	}
 	.saga, .saga1{
-		grid-column: 10/11;
+		grid-column: 7/9;
 	}
 	.youtube{
+		grid-column: 9/11;
+	}
+	.facebook{
 		grid-column: 11/13;
 	}
 	.description, .description-1{
