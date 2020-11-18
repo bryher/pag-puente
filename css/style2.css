@@ -158,20 +158,48 @@ body{
       rgba(0, 62, 87, 0.5)
     ), url(../img/DBS/1manga45.webp);
 }
-.img66-1, .img66-2, .img66-3{
-	background-image: linear-gradient(
+
+.img66-1{
+	background-image:  linear-gradient(
       rgba(0, 62, 87, 0.5),
       rgba(0, 62, 87, 0.5)
-    );
-}
-.img66-1{
-	background-image: url(../img/DBS/1manga66.webp);
+    ), url(../img/DBS/1manga66.webp);
 }
 .img66-2{
-	background-image: url(../img/DBS/2manga66.webp);
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/2manga66.webp);
 }
-.img66-2{
-	background-image: url(../img/DBS/3manga66.webp);
+.img66-3{
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/3manga66.webp);
+}
+.img66-4{
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/4manga66.webp);
+}
+.img66-5{
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/5manga66.webp);
+}
+.img66-6{
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/6manga66.webp);
+}
+.img66-7{
+	background-image:  linear-gradient(
+      rgba(0, 62, 87, 0.5),
+      rgba(0, 62, 87, 0.5)
+    ), url(../img/DBS/7manga66.webp);
 }
 .titulo{
 	color: #ff00a6;
