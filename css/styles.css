@@ -37,6 +37,11 @@
 }
 .second4{
 	height: 35vh;
+}
+.second5{
+	height: 60vh;
+}
+.second4, .second5{
 	display: block;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -93,6 +98,19 @@
 .down-66-7{
 	background-image: url(../img/DBS/7manga66.webp);
 }
+.bardock{
+	background-color: rgba(135, 135, 135, 0.55);
+	background-image: url(../img/DBS/Bardock-tw.webp);
+}
+.banera{
+	background-color: rgba(192, 173, 150, 1);
+	background-image: url(../img/DBS/goku-gohan.webp);
+}
+.kaioken{
+	background-size: cover;
+	background-color: rgba(16, 48, 80, 1);
+	background-image: url(../img/DBS/kaioken.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -142,12 +160,23 @@ header{
 	cursor: pointer;
 	z-index: 10;
 	position: fixed;
-	bottom: 5px;
+	bottom: 5%;
 	right: 20px;
 }
 .menu img{
+	width: 65px;
+}
+.atras{
+	display: block;
+	z-index: 10;
+	position: fixed;
+	bottom: 20%;
+	left: 7%;
+}
+.atras img{
 	width: 50px;
 }
+
 .navbar .home img{
 	width: 70px;
 	display: block;
@@ -437,6 +466,9 @@ a{
 	.second4{
 		height: 40vh;
 	}
+	.second5{
+		height: 80vh;
+	}
 }
 @media (max-width: 650px){
 	.menu{
@@ -467,6 +499,7 @@ a{
 		filter: brightness(50%);
 	}
 	.modal{
+		top:0;
 		width: 80%;
 	}
 	.second2, .second3{
@@ -484,7 +517,23 @@ a{
 	.second4{
 		height: 50vh;
 		background-size: cover;
+	}
+	.second4, .second5{
 		background-position: center;
+	}
+	.second5{
+		height: 100vh;
+	}
+	.atras{
+		bottom: 5%;
+		background-color: rgba(223, 127, 67, 1);
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+	}
+	.atras img{
+		display: block;
+		margin: 8px auto;
 	}
 }
 @media (max-width: 500px){
