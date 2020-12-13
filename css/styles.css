@@ -105,6 +105,14 @@
 .down-66-7{
 	background-image: url(../img/DBS/7manga66.webp);
 }
+
+.snk-down-91-40{
+	background-image: url(../img/snk/40manga91.webp);
+}
+.snk-down-92-8{
+	height: 100vh;
+	background-image: url(../img/SNK/8manga92.webp);
+}
 .bardock{
 	background-color: rgba(135, 135, 135, 0.55);
 	background-image: url(../img/DBS/Bardock-tw.webp);
@@ -307,10 +315,8 @@ a .ads-img{
 	background-image: url(../img/DBS/Bardock-tw.webp);
 }
 .part4{
-	background-image: url(../img/DBS/6manga66.webp);
+	background-image: url(../img/SNK/40manga91.webp);
 }
-
-
 .part1-m20{
 	background-image: url(../img/DBS/1manga20.webp);
 }
@@ -336,6 +342,13 @@ a .ads-img{
 	background-image: url(../img/DBS/1manga66.webp);
 }
 
+/* Shingeki no Kyojin */
+.part1-m91{
+	background-image: url(../img/snk/40manga91.webp);
+}
+.part1-m92{
+	background-image: url(../img/snk/8manga92.webp);
+}
 .tmanga{
 	text-align: center;
 	font-size: 2em;
