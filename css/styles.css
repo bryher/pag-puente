@@ -181,13 +181,18 @@ header{
 	width: 65px;
 }
 .atras{
+	bottom: 20%;
+}
+.video{
+	bottom: 10%;
+}
+.atras, .video{
+	left: 7%;
 	display: block;
 	z-index: 10;
 	position: fixed;
-	bottom: 20%;
-	left: 7%;
 }
-.atras img{
+.atras img, .video img{
 	width: 50px;
 }
 
@@ -387,14 +392,20 @@ a{
 }
 
 /* Modal */
-#miModal:target{
+#miModal:target, #miModal2:target{
   opacity:1;
   pointer-events:auto;
 	z-index: 10;
 }
 .modal{
+	width: 60%;
 	border: #836a2f solid 3px;
   background-color: rgba(0, 0, 0, .7);
+}
+.modal2{
+	width: 80%;
+}
+.modal, .modal2{
   position:fixed;
   top:10%;
   right:0;
@@ -403,10 +414,9 @@ a{
   opacity:0;
   pointer-events:none;
   transition: all 1s;
-	width: 60%;
 	margin: auto;
 }
-.modal-contenido{
+.modal-contenido, .modal-contenido2{
   width:90%;
   position: relative;
 	margin: auto;
@@ -423,7 +433,7 @@ a{
 	font-size: 15px;
 	color: white;
 }
-.modal-close{
+.modal-close, .modal-close2{
 	position: absolute;
 	right: -85px;
 }
@@ -465,6 +475,7 @@ a{
 	width: 70px;
 	padding: 0 5px;
 }
+
 @media (max-width: 800px){
 	.qr-code img{
 		width: 60%;
@@ -504,6 +515,13 @@ a{
 	.second5{
 		height: 80vh;
 	}
+	.modal2{
+		width: 90%;
+		top:5%
+	}
+	.modal-close2{
+		right: 0;
+	}
 }
 @media (max-width: 650px){
 	.menu{
@@ -537,6 +555,13 @@ a{
 		top:0;
 		width: 80%;
 	}
+	.modal2{
+		width: 100%;
+		top:0
+	}
+	.modal-contenido2{
+		width: 100%;
+	}
 	.second2, .second3{
 		grid-column: 1/13;
 	}
@@ -560,13 +585,18 @@ a{
 		height: 100vh;
 	}
 	.atras{
-		bottom: 5%;
 		background-color: rgba(223, 127, 67, 1);
 		border-radius: 50%;
+	}
+	.video{
+		left: 45%;
+	}
+	.atras, .video{
+		bottom: 5%;
 		width: 70px;
 		height: 70px;
 	}
-	.atras img{
+	.atras img, .video img{
 		display: block;
 		margin: 8px auto;
 	}
@@ -588,4 +618,5 @@ a{
 	.kaioken{
 		background-size: cover;
 	}
+
 }
