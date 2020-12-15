@@ -84,6 +84,24 @@
 .down-45-1{
 	background-image: url(../img/DBS/1manga45.webp);
 }
+/* MANGA50 DESCARGAS */
+.down-50-1{
+	background-image: url(../img/DBS/1manga50.webp);
+}
+.down-50-2{
+	background-image: url(../img/DBS/2manga50.webp);
+}
+.down-50-3{
+	background-image: url(../img/DBS/3manga50.webp);
+}
+.down-50-4{
+	background-image: url(../img/DBS/4manga50.webp);
+}
+.down-50-5{
+	background-image: url(../img/DBS/5manga50.webp);
+}
+
+/* MANGA66 DESCARGAS */
 .down-66-1{
 	background-image: url(../img/DBS/1manga66.webp);
 }
@@ -104,6 +122,28 @@
 }
 .down-66-7{
 	background-image: url(../img/DBS/7manga66.webp);
+}
+/* MANGA67 DESCARGAS */
+.down-67-1{
+	background-image: url(../img/DBS/1manga67.webp);
+}
+.down-67-2{
+	background-image: url(../img/DBS/2manga67.webp);
+}
+.down-67-3{
+	background-image: url(../img/DBS/3manga67.webp);
+}
+.down-67-4{
+	background-image: url(../img/DBS/4manga67.webp);
+}
+.down-67-5{
+	background-image: url(../img/DBS/5manga67.webp);
+}
+.down-67-6{
+	background-image: url(../img/DBS/6manga67.webp);
+}
+.down-67-7{
+	background-image: url(../img/DBS/7manga67.webp);
 }
 
 .snk-down-91-40{
@@ -241,11 +281,18 @@ a .ads-img{
 	color: white;
 	text-align: center;
 }
+.titulo2{
+	padding-top: 20%;
+	font-size: 2em;
+	color: #68fd7f;
+}
 .titulo{
 	padding-top: 90%;
-	margin: 0 5%;
-	color: #fff;
 	font-size: 1.5em;
+	color: #fff;
+}
+.titulo, .titulo2{
+	margin: 0 5%;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
@@ -284,6 +331,11 @@ a .ads-img{
 }
 .part2, .part4, .part6{
 	grid-column: 7/13;
+}
+#part0{
+	grid-column: 1/13;
+	background-image: url(../img/DBS/banner-moro.webp);
+	height: 40vh;
 }
 .categories{
 	width: 100%;
@@ -618,5 +670,12 @@ a{
 	.kaioken{
 		background-size: cover;
 	}
-
+	.video{
+		left: 42%;
+	}
+}
+@media (max-width: 300px){
+	.video{
+		left: 38%;
+	}
 }
