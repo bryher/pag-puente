@@ -72,6 +72,11 @@
 	height: 60vh;
 	background-image: url(../img/DBS/1manga21.webp);
 }
+.down-22-1{
+	height: 60vh;
+	background-image: url(../img/DBS/1manga22.webp);
+}
+
 .down-42-1{
 	background-image: url(../img/DBS/1manga42.webp);
 }
@@ -379,6 +384,9 @@ a .ads-img{
 }
 .part1-m21{
 	background-image: url(../img/DBS/1manga21-1.webp);
+}
+.part1-m22{
+	background-image: url(../img/DBS/1manga22.webp);
 }
 .part1-m42{
 	background-image: url(../img/DBS/1manga42.webp);
