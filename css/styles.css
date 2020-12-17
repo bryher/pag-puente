@@ -133,6 +133,7 @@
 	background-image: url(../img/DBS/1manga67.webp);
 }
 .down-67-2{
+	height: 100vh;
 	background-image: url(../img/DBS/2manga67.webp);
 }
 .down-67-3{
@@ -339,7 +340,7 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/banner-moro.webp);
+	background-image: url(../img/DBS/1manga67.webp);
 	height: 40vh;
 }
 .categories{
@@ -405,6 +406,9 @@ a .ads-img{
 }
 .part1-m66{
 	background-image: url(../img/DBS/1manga66.webp);
+}
+.part1-m67{
+	background-image: url(../img/DBS/1manga67.webp);
 }
 
 /* Shingeki no Kyojin */
