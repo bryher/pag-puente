@@ -151,6 +151,28 @@
 .down-67-7{
 	background-image: url(../img/DBS/7manga67.webp);
 }
+/* MANGA68 DESCARGAS */
+.down-68-1{
+	background-image: url(../img/DBS/PortaManga68.webp);
+}
+.down-68-2{
+	background-image: url(../img/DBS/2manga68.webp);
+}
+.down-68-3{
+	background-image: url(../img/DBS/3manga68.webp);
+}
+.down-68-4{
+	background-image: url(../img/DBS/4manga68.webp);
+}
+.down-68-5{
+	background-image: url(../img/DBS/5manga68.webp);
+}
+.down-68-6{
+	background-image: url(../img/DBS/6manga68.webp);
+}
+.down-68-7{
+	background-image: url(../img/DBS/7manga68.webp);
+}
 
 .snk-down-91-40{
 	background-image: url(../img/snk/40manga91.webp);
@@ -350,7 +372,7 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/manga67-mini.webp);
+	background-image: url(../img/DBS/manga68-mini.webp);
 	height: 40vh;
 }
 .categories{
@@ -371,7 +393,7 @@ a .ads-img{
 .part1{
 	/* width: 100%;
 	height: 100%; */
-	background-image: url(../img/DBS/banner-moro.webp);
+	background-image: url(../img/DBS/PortaManga68.webp);
 	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; */
@@ -379,15 +401,18 @@ a .ads-img{
 .part2{
 	/* width: 100%;
 	height: 100%; */
-	background-image: url(../img/DBS/1manga20.webp);
+	background-image: url(../img/DBS/banner-moro.webp);
 	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; */
 }
 .part3{
-	background-image: url(../img/DBS/Bardock-tw.webp);
+	background-image: url(../img/DBS/1manga20.webp);
 }
 .part4{
+	background-image: url(../img/DBS/Bardock-tw.webp);
+}
+.part5{
 	background-image: url(../img/SNK/40manga91.webp);
 }
 .part1-m20{
@@ -419,6 +444,9 @@ a .ads-img{
 }
 .part1-m67{
 	background-image: url(../img/DBS/1manga67.webp);
+}
+.part1-m68{
+	background-image: url(../img/DBS/2manga68.webp);
 }
 
 /* Shingeki no Kyojin */
