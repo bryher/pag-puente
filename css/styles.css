@@ -253,10 +253,10 @@ header{
 	width: 55px;
 }
 .atras{
-	bottom: 20%;
+	bottom: 17%;
 }
 .video{
-	bottom: 10%;
+	bottom: 9%;
 }
 .como{
 	top: 5%;
@@ -335,7 +335,7 @@ a .ads-img{
 	text-align: center;
 }
 .title {
-	background: rgba(0, 0, 0, 0.45);
+	background: rgba(0, 0, 0, 0.55);
 }
 .contenido{
 	height: 100vh;
