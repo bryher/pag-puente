@@ -202,7 +202,7 @@
 	background-image: url(../img/DBS/kaioken.webp);
 }
 .portd-manga68{
-	background-color: rgba(255, 0, 149, 1);
+	background-color: rgba(136, 214, 0, 1);
 	background-image: url(../img/DBS/PortaManga68.webp);
 }
 .venganza{
@@ -212,7 +212,10 @@
 .vegetto3{
 	background-image: url(../img/DBS/vegetto3.webp);
 }
-
+.vegetto{
+	background-color: rgba(214, 0, 86, 1);
+	background-image: url(../img/DBS/vegetto.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
