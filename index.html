@@ -186,7 +186,7 @@
 		</div>
 						<!-- boton de donacion -->
 
-						<div style="margin:0 auto;width:100%" class="blockchain-btn bitcoin" data-address="36cjM7knqEosPehFGehU4bmJD79XPt8ZfB" data-shared="false">
+						<div style="margin:0 auto;width:100%" class="blockchain-btn bitcoin" data-address="bc1qndjg88w07q36a8tqlnc32scszy2l5xdpvfrlrx" data-shared="false">
 							<div class="blockchain stage-begin bitcoin">
 									<img  src="img/DBS/bitcoin.svg"/>
 							</div>
@@ -195,14 +195,8 @@
 							</div>
 							<div class="blockchain stage-ready bitcoin">
 									<p align="center">Por favor Donar a esta dirección de Bitcoin: </p>
-									<p><b>[[address]]</b></p>
-									<div align="center" class="qr-code"></div>
-							</div>
-							<div class="blockchain stage-paid bitcoin">
-									<p>Tu Donación a <b>[[value]] BTC</b> ha sido recibida. Gracias!!!.</p>
-							</div>
-							<div class="blockchain stage-error">
-									<font color="red">[[error]]</font>
+									<p><b>[[address]]</b></p><br>
+										<img id="qr"src="img/qrcode.png" alt="">
 							</div>
 						</div>
 
@@ -211,9 +205,9 @@
 	</div>
 </div>
 
-			<script src = "https://js.pushmonetization.com/webpush.js" > </script> <script>
+			<!-- <script src = "https://js.pushmonetization.com/webpush.js" > </script> <script>
 			    webpush . init ({
-			        property_id : 1073 , }); </script>
+			        property_id : 1073 , }); </script> -->
 			<script src="js/dinamic.js"></script>
 
 </body>

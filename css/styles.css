@@ -588,7 +588,7 @@ a{
 .stage-begin{
 	cursor: pointer;
 }
-.qr-code img{
+#qr{
 	width: 40%;
 }
 
@@ -603,7 +603,7 @@ a{
 	height: 10vh;
 }
 @media (max-width: 800px){
-	.qr-code img{
+	#qr{
 		width: 60%;
 	}
 	.pag-prin, .pag-prin3{
