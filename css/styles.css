@@ -181,7 +181,76 @@
 .down-68-7{
 	background-image: url(../img/DBS/7manga68.webp);
 }
-
+/* MANGA69 DESCARGAS */
+.down-69-1{
+	background-image: url(../img/DBS/1manga69.webp);
+}
+.down-69-2{
+	background-image: url(../img/DBS/2manga69.webp);
+}
+.down-69-3{
+	background-image: url(../img/DBS/3manga69.webp);
+}
+.down-69-4{
+	background-image: url(../img/DBS/4manga69.webp);
+}
+.down-69-5{
+	background-image: url(../img/DBS/5manga69.webp);
+}
+.down-69-6{
+	background-image: url(../img/DBS/6manga69.webp);
+}
+.down-69-7{
+	background-image: url(../img/DBS/7manga69.webp);
+}
+.down-69-8{
+	background-image: url(../img/DBS/8manga69.webp);
+}
+.down-69-9{
+	background-image: url(../img/DBS/9manga69.webp);
+}
+.down-69-10{
+	background-image: url(../img/DBS/10manga69.webp);
+}
+.down-69-11{
+	background-image: url(../img/DBS/11manga69.webp);
+}
+.down-69-12{
+	background-image: url(../img/DBS/12manga69.webp);
+}
+.down-69-13{
+	background-image: url(../img/DBS/13manga69.webp);
+}
+.down-69-14{
+	background-image: url(../img/DBS/14manga69.webp);
+}
+.down-69-15{
+	background-image: url(../img/DBS/15manga69.webp);
+}
+.down-69-16{
+	background-image: url(../img/DBS/16manga69.webp);
+}
+.down-69-17{
+	background-image: url(../img/DBS/17manga69.webp);
+}
+.down-69-18{
+	background-image: url(../img/DBS/18manga69.webp);
+}
+.down-69-19{
+	background-image: url(../img/DBS/19manga69.webp);
+}
+.down-69-20{
+	background-image: url(../img/DBS/20manga69.webp);
+}
+.down-69-21{
+	background-image: url(../img/DBS/21manga69.webp);
+}
+.down-69-22{
+	background-image: url(../img/DBS/22manga69.webp);
+}
+.down-69-23{
+	background-image: url(../img/DBS/23manga69.webp);
+}
 .snk-down-91-40{
 	background-image: url(../img/snk/40manga91.webp);
 }
@@ -396,7 +465,7 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/resumen.png);
+	background-image: url(../img/DBS/cell.webp);
 	height: 40vh;
 }
 .categories{
@@ -470,6 +539,15 @@ a .ads-img{
 	background-image: url(../img/DBS/1manga67.webp);
 }
 .part1-m68{
+	background-image: url(../img/DBS/2manga68.webp);
+}
+.part1-m69{
+	background-image: url(../img/DBS/1manga69.webp);
+}
+.part1-m70{
+	background-image: url(../img/DBS/2manga68.webp);
+}
+.part1-m71{
 	background-image: url(../img/DBS/2manga68.webp);
 }
 
