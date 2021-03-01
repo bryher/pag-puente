@@ -1081,16 +1081,11 @@ a{
 	padding: 0 5px;
 }
 .bitcoin p{
+	font-weight: bold;
 	text-align: center;
 	font-size: 15px;
 	font-size: 15px;
 	color: #36ab5d;
-}
-.stage-begin{
-	cursor: pointer;
-}
-#qr{
-	width: 40%;
 }
 
 .paypal img{
