@@ -697,6 +697,19 @@
 	background-color: rgba(0, 0, 0, 1);
 	background-image: url(../img/DBS/dabura.webp);
 }
+.baby{
+	background-color: rgba(255, 255, 255, 1);
+	background-image: url(../img/DBS/baby.webp);
+}
+.hildegan{
+	background-color: rgba(0, 0, 0, 1);
+	background-image: url(../img/DBS/hildegan.webp);
+}
+.vegetto-zamas{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 1);
+	background-image: url(../img/DBS/vegetto-zamas.webp);
+}
 
 .pag-prin3{
 	left: 0;
