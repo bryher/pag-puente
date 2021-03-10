@@ -721,7 +721,10 @@
 	height: 100vh;
 	background-image: url(../img/DBS/vegogeta-yellow.webp);
 }
-
+.ui{
+	height: 100vh;
+	background-image: url(../img/DBS/ui.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -880,11 +883,10 @@ a .ads-img{
 	grid-column: 1/9;
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/DBS/granola.webp);
+	background-image: url(../img/DBS/ui.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-
 }
 #second div{
 	height: 50vh;
