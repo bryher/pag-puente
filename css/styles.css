@@ -666,6 +666,10 @@
 	height: 100vh;
 	background-image: url(../img/SNK/8manga92.webp);
 }
+.titanbestia{
+	height: 100vh;
+	background-image: url(../img/SNK/titanbestia.webp);
+}
 .bardock{
 	background-color: rgba(135, 135, 135, 0.55);
 	background-image: url(../img/DBS/Bardock-tw.webp);
@@ -707,8 +711,15 @@
 }
 .vegetto-zamas{
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 1);
 	background-image: url(../img/DBS/vegetto-zamas.webp);
+}
+.vegogeta-blue{
+	height: 100vh;
+	background-image: url(../img/DBS/vegogeta-blue.webp);
+}
+.vegogeta-yellow{
+	height: 100vh;
+	background-image: url(../img/DBS/vegogeta-yellow.webp);
 }
 
 .pag-prin3{
