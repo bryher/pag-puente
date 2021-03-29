@@ -807,6 +807,10 @@
 	height: 100vh;
 	background-image: url(../img/SNK/titanbestia.webp);
 }
+.goku-moro-mini{
+	height: 100vh;
+	background-image: url(../img/DBS/small-goku-moro.webp);
+}
 .bardock{
 	background-color: rgba(135, 135, 135, 0.55);
 	background-image: url(../img/DBS/Bardock-tw.webp);
