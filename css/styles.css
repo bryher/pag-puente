@@ -51,6 +51,21 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
+.ho{
+	position: relative;
+	bottom: 80px;
+	grid-column: 1/13;
+	margin: auto;
+}
+.ho img{
+	background-color: rgba(124, 179, 203, 1);
+	width: 60px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.ho img:hover{
+	background-color: rgba(114, 208, 248, 1);
+}
 .des{
 	padding-top: 10%;
 	width: 100%;
@@ -989,9 +1004,9 @@ a .ads-img{
 	text-align: center;
 }
 .titulo2{
-	padding-top: 20%;
+	padding-top: 40%;
 	font-size: 2em;
-	color: #68fd7f;
+	color: #fdc968;
 }
 .titulo{
 	padding-top: 90%;
@@ -1040,8 +1055,8 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/70.png);
-	height: 40vh;
+	background-image: url(../img/DBS/heata.png);
+	height: 35vh;
 }
 .categories{
 	width: 100%;
