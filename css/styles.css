@@ -51,13 +51,18 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
+.ho1{
+	top: 80px;
+}
 .ho{
-	position: relative;
 	bottom: 80px;
+}
+.ho, .ho1{
+	position: sticky;
 	grid-column: 1/13;
 	margin: auto;
 }
-.ho img{
+.ho img, .ho1 img{
 	background-color: rgba(124, 179, 203, 1);
 	width: 60px;
 	padding: 5px;
@@ -823,7 +828,7 @@
 	background-image: url(../img/SNK/titanbestia.webp);
 }
 .goku-moro-mini{
-	height: 100vh;
+	height: 80vh;
 	background-image: url(../img/DBS/small-goku-moro.webp);
 }
 .bardock{
