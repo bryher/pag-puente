@@ -41,7 +41,10 @@
 .second5{
 	height: 60vh;
 }
-.second4, .second5{
+.second6{
+	height: 80vh;
+}
+.second4, .second5, .second6{
 	display: block;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -68,7 +71,7 @@
 	padding: 5px;
 	border-radius: 10px;
 }
-.ho img:hover{
+.ho img:hover, .ho1 img:hover{
 	background-color: rgba(114, 208, 248, 1);
 }
 .des{
@@ -820,15 +823,12 @@
 	background-image: url(../img/snk/40manga91.webp);
 }
 .snk-down-92-8{
-	height: 100vh;
 	background-image: url(../img/SNK/8manga92.webp);
 }
 .titanbestia{
-	height: 100vh;
 	background-image: url(../img/SNK/titanbestia.webp);
 }
 .goku-moro-mini{
-	height: 80vh;
 	background-image: url(../img/DBS/small-goku-moro.webp);
 }
 .bardock{
@@ -875,15 +875,12 @@
 	background-image: url(../img/DBS/vegetto-zamas.webp);
 }
 .vegogeta-blue{
-	height: 100vh;
 	background-image: url(../img/DBS/vegogeta-blue.webp);
 }
 .vegogeta-yellow{
-	height: 100vh;
 	background-image: url(../img/DBS/vegogeta-yellow.webp);
 }
 .ui{
-	height: 100vh;
 	background-image: url(../img/DBS/ui.webp);
 }
 .pag-prin3{
@@ -1324,6 +1321,7 @@ a{
 	.second5{
 		height: 80vh;
 	}
+
 	.modal2{
 		width: 90%;
 		top:5%
@@ -1391,7 +1389,7 @@ a{
 		height: 50vh;
 		background-size: cover;
 	}
-	.second4, .second5{
+	.second4, .second5, .second6{
 		background-position: center;
 	}
 	.second5{
