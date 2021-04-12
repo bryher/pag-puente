@@ -1279,9 +1279,6 @@ a{
 .focus-img{
 	width: 90%;
 }
-.emerg{
-	height: 10vh;
-}
 @media (max-width: 800px){
 	#qr{
 		width: 60%;
@@ -1413,9 +1410,6 @@ a{
 	}
 	.como{
 		left: 7%;
-	}
-	.emerg{
-		display: none
 	}
 	.des{
 		grid-column: 5/13;
