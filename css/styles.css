@@ -883,6 +883,9 @@
 .ui{
 	background-image: url(../img/DBS/ui.webp);
 }
+.melenas{
+	background-image: url(../img/DBS/melenas2.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -1006,7 +1009,7 @@ a .ads-img{
 	text-align: center;
 }
 .titulo2{
-	padding-top: 40%;
+	padding-top: 20%;
 	font-size: 2em;
 	color: #fdc968;
 }
@@ -1057,8 +1060,8 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/heata.png);
-	height: 35vh;
+	background-image: url(../img/DBS/melenas.webp);
+	height: 38vh;
 }
 .categories{
 	width: 100%;
