@@ -93,7 +93,8 @@
 	margin-top: auto;
 	margin-bottom: auto;
 	height: 100%;
-
+	border: solid 2px grey;
+	border-radius: 5px;
 }
 .des p{
 	font-size: 1.5rem;
@@ -880,18 +881,31 @@ header{
 #premiun:hover{
 	background: rgba(70, 65, 53, 1);
 	font-weight: bold;
+	color: rgba(255, 206, 31, 1);
 }
-.saga p{
-	text-align: center;
+.btns-1{
 	color: white;
-	display: block;
-	padding: 10px;
-	text-decoration: none;
 }
-.saga p:hover {
-	background-color: #03c480;
-	color: black;
+.btns-1:hover{
+	background-color: rgba(58, 73, 50, 1);
+	color: rgba(81, 255, 0, 1);
 	font-weight: bold;
+}
+.btns-1, #premiun, .btns-2, #premiun2, .btns-3{
+	text-align: center;
+	padding: 10px;
+}
+#premiun2{
+	background: rgba(70, 65, 53, 1);
+	color: rgba(255, 206, 31, 1);
+	font-weight: bold;
+}
+.btns-2, .btns-3{
+	color: rgba(112, 169, 219, 1);
+	font-weight: bold;
+}
+.btns-3{
+	background-color: rgba(77, 77, 77, 1);
 }
 .saga1{
 	background-color: #347961;
@@ -924,7 +938,8 @@ header{
 	width: 55px;
 }
 .atras{
-	bottom: 17%;
+	top:5%;
+	left:1%;
 }
 .video{
 	bottom: 9%;
@@ -933,7 +948,7 @@ header{
 	top: 5%;
 	left: 22%;
 }
-.atras, .video{
+.video{
 	left: 7%;
 }
 .atras, .video, .como{
@@ -950,16 +965,20 @@ header{
 	display: block;
 	margin: 30px auto;
 }
-.navbar img{
+.social-red img{
 	width: 30px;
 }
 .social {
 	display: flex;
 	margin-bottom: auto;
+	height: 50px;
 }
-.social a{
+.social-red{
 	display: block;
 	margin: auto;
+}
+.social-red > img:hover{
+	width:40px;
 }
 #donate{
 	display: block;
@@ -1314,7 +1333,10 @@ a{
 	.titulo{
 		background-color: rgba(0, 0, 0, 0.4);
 	}
-
+	.atras{
+		top: 5%;
+		left: 2%;
+	}
 }
 @media (max-width: 650px){
 	.menu{
@@ -1385,6 +1407,7 @@ a{
 		left: 45%;
 	}
 	.atras, .video{
+		top: auto;
 		bottom: 5%;
 		width: 60px;
 		height: 60px;
@@ -1422,7 +1445,10 @@ a{
 	}
 	#second div {
     height: 100vh;
-}
+	}
+	.part1, .part2, .part3, .part4{
+		background-size: 80%;
+	}
 }
 @media (max-width: 300px){
 	.video{
