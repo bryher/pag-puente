@@ -13,6 +13,10 @@
 .body1, .body2{
 	padding-left:19.3%;
 }
+.title-prin{
+	color: rgba(255, 183, 0, 1);
+	text-shadow: 2px 2px 5px #000;
+}
 .pag-prin{
 	width: 58%;
 	display: grid;
@@ -43,7 +47,9 @@
 }
 .second6{
 	height: 80vh;
+
 }
+
 .second4, .second5, .second6{
 	display: block;
 	width: 100%;
@@ -75,26 +81,36 @@
 	background-color: rgba(114, 208, 248, 1);
 }
 .des{
-	padding-top: 10%;
+	padding-top:32vh;
 	width: 100%;
-	background-color: rgba(40, 90, 159, .6);
-	display: block;
+	background-color: rgba(40, 90, 159, .4);
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	grid-column: 8/13;
 	text-align: center;
+	font-weight: bold;
+	transition: all 0.5s;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100%;
+
+}
+.des p{
+	font-size: 1.5rem;
+	font-weight: normal;
+
 }
 .des:hover{
 	background-color: rgba(40, 90, 159, 1);
+	color: black;
+	font-size: 3.2em;
+	border-radius: 50px;
+	transition: all 0.5s;
+	height: 70%;
+	padding-top:20vh;
+
 }
-.des p{
-	font-weight: bold;
-	font-size: 1.5em;
-	margin-top: 50%;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .down-20-1{
 	height: 100vh;
 	background-image: url(../img/DBS/1manga20.webp);
@@ -828,63 +844,12 @@
 .titanbestia{
 	background-image: url(../img/SNK/titanbestia.webp);
 }
-.goku-moro-mini{
-	background-image: url(../img/DBS/small-goku-moro.webp);
+.vegeta-destructor{
+	background-image: url(../img/DBS/destructor-sin-fondo.webp);
+	background-color: rgba(13, 58, 79, 1)
 }
-.bardock{
-	background-color: rgba(135, 135, 135, 0.55);
-	background-image: url(../img/DBS/Bardock-tw.webp);
-}
-.banera{
-	background-color: rgba(192, 173, 150, 1);
-	background-image: url(../img/DBS/goku-gohan.webp);
-}
-.kaioken{
-	background-color: rgba(16, 48, 80, 1);
-	background-image: url(../img/DBS/kaioken.webp);
-}
-.portd-manga68{
-	background-color: rgba(136, 214, 0, 1);
-	background-image: url(../img/DBS/PortaManga68.webp);
-}
-.venganza{
-	background-color: rgba(40, 7, 90, 1);
-	background-image: url(../img/DBS/venganza.webp);
-}
-.vegetto3{
-	background-image: url(../img/DBS/vegetto3.webp);
-}
-.vegetto{
-	background-color: rgba(214, 0, 86, 1);
-	background-image: url(../img/DBS/vegetto.webp);
-}
-.dabura{
-	background-color: rgba(0, 0, 0, 1);
-	background-image: url(../img/DBS/dabura.webp);
-}
-.baby{
-	background-color: rgba(255, 255, 255, 1);
-	background-image: url(../img/DBS/baby.webp);
-}
-.hildegan{
-	background-color: rgba(0, 0, 0, 1);
-	background-image: url(../img/DBS/hildegan.webp);
-}
-.vegetto-zamas{
-	height: 100vh;
-	background-image: url(../img/DBS/vegetto-zamas.webp);
-}
-.vegogeta-blue{
-	background-image: url(../img/DBS/vegogeta-blue.webp);
-}
-.vegogeta-yellow{
-	background-image: url(../img/DBS/vegogeta-yellow.webp);
-}
-.ui{
-	background-image: url(../img/DBS/ui.webp);
-}
-.melenas{
-	background-image: url(../img/DBS/melenas2.webp);
+.moro-goku-ui{
+	background-image: url(../img/DBS/moro-goku-ui.webp);
 }
 .pag-prin3{
 	left: 0;
@@ -908,7 +873,14 @@ header{
 	position: fixed;
 	background: #000;
 }
-
+#premiun{
+	color: rgba(255, 183, 0, 1);
+  text-shadow: 2px 2px 5px #000;
+}
+#premiun:hover{
+	background: rgba(70, 65, 53, 1);
+	font-weight: bold;
+}
 .saga p{
 	text-align: center;
 	color: white;
@@ -929,6 +901,16 @@ header{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
+}
+.saga2{
+	background: rgba(70, 65, 53, 1);
+	font-weight: bold;
+	color: rgba(255, 183, 0, 1);
+	text-shadow: 2px 2px 5px #000;
+	text-align: center;
+	display: block;
+	padding: 10px;
+
 }
 .menu{
 	display: none;
@@ -1013,41 +995,41 @@ a .ads-img{
 	font-size: 2em;
 	color: #fdc968;
 }
-.titulo{
-	padding-top: 90%;
-	font-size: 1.5em;
-	color: #fff;
+.titulo3{
+	padding-top: 100%;
+	font-size: 1.8em;
 }
-.titulo, .titulo2{
-	margin: 0 5%;
+.titulo{
+	padding-top: 100%;
+	font-size: 1.8em;
+	color: rgba(107, 213, 255, 1);
+	text-shadow: 2px 2px 5px #000;
+}
+.titulo, .titulo2, .titulo3{
+	/* margin: 0 5%; */
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
-.title {
-	background: rgba(0, 0, 0, 0.55);
+.titulo:hover{
+	background-color: rgba(0, 0, 0, 0.4);
 }
-.contenido{
+.contenido, #contenido2{
 	height: 100vh;
 	grid-column: 5/13;
-	background: #4a9400;
-	background-image: url(../img/DBS/fondo.webp);
+	background: rgba(36, 36, 36, 1);
 }
 #contenido2{
 	display: none;
-	height: 100vh;
-	grid-column: 5/13;
-	background: #4a9400;
-	background-image: url(../img/DBS/fondo.webp);
 }
 
 .portada1{
 	grid-column: 1/9;
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/DBS/ui.webp);
+	background-image: url(../img/DBS/destructor-sin-fondo.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: bottom;
 }
 #second div{
 	height: 50vh;
@@ -1071,12 +1053,12 @@ a .ads-img{
 	background-position: center;
 	-webkit-filter: brightness(60%);
 	filter: brightness(60%);
-	transition:all 15s;
+	/* transition:all 0.5s; */
 }
 .categories:hover{
 	-webkit-filter: brightness(100%);
 	filter: brightness(100%);
-	transition:all 1s;
+	/* transition:all .5s; */
 }
 .part1{
 	/* width: 100%;
@@ -1098,9 +1080,6 @@ a .ads-img{
 	background-image: url(../img/DBS/1manga20.webp);
 }
 .part4{
-	background-image: url(../img/DBS/Bardock-tw.webp);
-}
-.part5{
 	background-image: url(../img/SNK/40manga91.webp);
 }
 .part1-m20{
@@ -1152,8 +1131,8 @@ a .ads-img{
 .part1-m70{
 	background-image: url(../img/DBS/10manga70.webp);
 }
-.part1-m71{
-	background-image: url(../img/DBS/2manga68.webp);
+.part1-m74{
+	background-image: url(../img/DBS/1manga74.webp);
 }
 
 /* Shingeki no Kyojin */
@@ -1167,14 +1146,7 @@ a .ads-img{
 	text-align: center;
 	font-size: 2em;
 	color: #fff;
-	background: rgba(150,25,3,1);
-	background: -moz-linear-gradient(left, rgba(150,25,3,1) 0%, rgba(6,77,132,0.95) 11%, rgba(160,13,79,0.85) 31%, rgba(20,97,56,0.76) 52%, rgba(6,67,132,0.64) 77%, rgba(129,96,14,0.53) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,25,3,1)), color-stop(11%, rgba(6,77,132,0.95)), color-stop(31%, rgba(160,13,79,0.85)), color-stop(52%, rgba(20,97,56,0.76)), color-stop(77%, rgba(6,67,132,0.64)), color-stop(100%, rgba(129,96,14,0.53)));
-	background: -webkit-linear-gradient(left, rgba(150,25,3,1) 0%, rgba(6,77,132,0.95) 11%, rgba(160,13,79,0.85) 31%, rgba(20,97,56,0.76) 52%, rgba(6,67,132,0.64) 77%, rgba(129,96,14,0.53) 100%);
-	background: -o-linear-gradient(left, rgba(150,25,3,1) 0%, rgba(6,77,132,0.95) 11%, rgba(160,13,79,0.85) 31%, rgba(20,97,56,0.76) 52%, rgba(6,67,132,0.64) 77%, rgba(129,96,14,0.53) 100%);
-	background: -ms-linear-gradient(left, rgba(150,25,3,1) 0%, rgba(6,77,132,0.95) 11%, rgba(160,13,79,0.85) 31%, rgba(20,97,56,0.76) 52%, rgba(6,67,132,0.64) 77%, rgba(129,96,14,0.53) 100%);
-	background: linear-gradient(to right, rgba(150,25,3,1) 0%, rgba(6,77,132,0.95) 11%, rgba(160,13,79,0.85) 31%, rgba(20,97,56,0.76) 52%, rgba(6,67,132,0.64) 77%, rgba(129,96,14,0.53) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#961903', endColorstr='#81600e', GradientType=1 );
+	background-color: rgba(35, 81, 139, 0.5)
 }
 .categories3{
 	height: 100vh;
@@ -1189,9 +1161,11 @@ a .ads-img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	transition-duration: 20s;
 }
 .categories2:hover, .categories3:hover{
-	border: solid black 1px;
+	background-size: contain;
+	transition-duration: .8s;
 }
 p , a, h4{
 	font-family: 'Raleway', sans-serif;
@@ -1332,6 +1306,14 @@ a{
 	.como{
 		left: 35%;
 	}
+	.categories{
+		-webkit-filter: brightness(100%);
+		filter: brightness(100%);
+		/* transition:all 0.5s; */
+	}
+	.titulo{
+		background-color: rgba(0, 0, 0, 0.4);
+	}
 
 }
 @media (max-width: 650px){
@@ -1438,6 +1420,9 @@ a{
 	.video{
 		left: 42%;
 	}
+	#second div {
+    height: 100vh;
+}
 }
 @media (max-width: 300px){
 	.video{
