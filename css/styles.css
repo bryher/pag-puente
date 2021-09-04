@@ -831,6 +831,9 @@
 .moro-goku-ui{
 	background-image: url(../img/DBS/moro-goku-ui.webp);
 }
+.goku-ui{
+	background-image: url(../img/DBS/UI-goku.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -994,7 +997,7 @@ a .ads-img{
 	color: #fdc968;
 }
 .titulo3{
-	padding-top: 100%;
+	padding-top: 10%;
 	font-size: 1.8em;
 }
 .titulo{
