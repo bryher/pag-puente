@@ -126,3 +126,8 @@ body {
         height: 100%;
     }
 }
+@media (max-width: 600px){
+  .contenedo, .carga{
+    width: 90%
+  }
+}
