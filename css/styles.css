@@ -923,22 +923,16 @@ header{
 	top:5%;
 	left:1%;
 }
-.video{
-	bottom: 9%;
-}
 .como{
 	top: 5%;
 	left: 22%;
 }
-.video{
-	left: 7%;
-}
-.atras, .video, .como{
+.atras, .como{
 	display: block;
 	z-index: 10;
 	position: fixed;
 }
-.atras img, .video img, .como img{
+.atras img, .como img{
 	width: 45px;
 }
 
@@ -1389,16 +1383,13 @@ a{
 		background-color: rgba(223, 127, 67, 1);
 		border-radius: 50%;
 	}
-	.video{
-		left: 45%;
-	}
-	.atras, .video{
+	.atras{
 		top: auto;
 		bottom: 5%;
 		width: 60px;
 		height: 60px;
 	}
-	.atras img, .video img{
+	.atras img{
 		display: block;
 		margin: 8px auto;
 	}
@@ -1426,18 +1417,10 @@ a{
 	.kaioken{
 		background-size: cover;
 	}
-	.video{
-		left: 42%;
-	}
 	#second div {
     height: 100vh;
 	}
 	.part1, .part2, .part3, .part4{
 		background-size: 80%;
-	}
-}
-@media (max-width: 300px){
-	.video{
-		left: 38%;
 	}
 }
