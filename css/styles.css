@@ -834,6 +834,9 @@
 .goku-ui{
 	background-image: url(../img/DBS/UI-goku.webp);
 }
+.granola{
+	background-image: url(../img/DBS/granola-1.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -1062,7 +1065,6 @@ a .ads-img{
 	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; */
-	background-color: rgba(49, 136, 43, 1);
 }
 .part2{
 	/* width: 100%;
@@ -1071,15 +1073,12 @@ a .ads-img{
 	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; */
-	background-color: rgba(43, 103, 136, 1)
 }
 .part3{
 	background-image: url(../img/DBS/1manga20.webp);
-	background-color:rgba(136, 43, 106, 1)
 }
 .part4{
 	background-image: url(../img/SNK/40manga91.webp);
-	background-color:rgba(136, 83, 43, 1)
 }
 .part1-m20{
 	background-image: url(../img/DBS/1manga20.webp);
@@ -1309,9 +1308,6 @@ a{
 		-webkit-filter: brightness(100%);
 		filter: brightness(100%);
 		/* transition:all 0.5s; */
-	}
-	.titulo{
-		background-color: rgba(0, 0, 0, 0.4);
 	}
 	.atras{
 		top: 5%;
