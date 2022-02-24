@@ -43,11 +43,10 @@
 	height: 35vh;
 }
 .second5{
-	height: 60vh;
+	grid-column: 1/7;
 }
 .second6{
-	height: 80vh;
-
+	grid-column: 7/13;
 }
 
 .second4, .second5, .second6{
@@ -56,40 +55,42 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: left;
-	grid-column: 1/13;
+	height: 70vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
 
 .des{
-	padding-top:32vh;
 	width: 100%;
-	background-color: rgba(40, 90, 159, .4);
+	background-color: rgba(0, 0, 0, .4);
 	color: white;
-	font-size: 3em;
-	grid-column: 8/13;
+	font-size: 2em;
+	grid-column: 7/13;
 	text-align: center;
 	font-weight: bold;
 	transition: all 0.5s;
 	margin-top: auto;
 	margin-bottom: auto;
-	height: 100%;
+	height: 60%;
 	border: solid 2px grey;
 	border-radius: 5px;
+	display: block;
+	padding-top:5vh;
+
 }
 .des p{
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: normal;
 
 }
 .des:hover{
-	background-color: rgba(40, 90, 159, 1);
+	background-color: rgba(0, 83, 199, 1);
 	color: black;
-	font-size: 3.2em;
 	border-radius: 50px;
 	transition: all 0.5s;
-	height: 70%;
-	padding-top:20vh;
+	height: 30%;
+	border: none;
+	/* padding-top:5vh; */
 
 }
 
@@ -826,7 +827,7 @@
 }
 .vegeta-destructor{
 	background-image: url(../img/DBS/destructor-sin-fondo.webp);
-	background-color: rgba(13, 58, 79, 1)
+	/*background-color: rgba(13, 58, 79, 1)*/
 }
 .moro-goku-ui{
 	background-image: url(../img/DBS/moro-goku-ui.webp);
@@ -1001,9 +1002,9 @@ a .ads-img{
 	font-size: 1.8em;
 }
 .titulo{
-	/* padding-top: 100%; */
+	padding-top: 100%;
 	font-size: 1.8em;
-	color: rgba(89, 217, 147, 1);
+	color: rgba(133, 173, 255, 1);
 	text-shadow: 2px 2px 5px #000;
 }
 .titulo, .titulo2, .titulo3{
@@ -1014,7 +1015,7 @@ a .ads-img{
 .contenido, #contenido2{
 	height: 100vh;
 	grid-column: 5/13;
-	background: rgba(36, 36, 36, 1);
+	background: rgba(0, 30, 71, 1);
 }
 #contenido2{
 	display: none;
@@ -1028,7 +1029,7 @@ a .ads-img{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	border: solid 3px rgba(54, 99, 74, 0.8);
+	border: solid 3px rgba(255, 255, 255, 1);
 }
 .part1, .part3, .part5{
 	grid-column: 1/7;
@@ -1049,7 +1050,7 @@ a .ads-img{
 	background-position: center;
 	-webkit-filter: brightness(60%);
 	filter: brightness(60%);
-	transition:all 0.5s;
+	transition:all 3s;
 	border-radius: 20px;
 	margin: 8px auto;
 }
@@ -1069,7 +1070,7 @@ a .ads-img{
 .part2{
 	/* width: 100%;
 	height: 100%; */
-	background-image: url(../img/DBS/banner-moro.webp);
+	background-image: url(../img/DBS/Moro-primitivo.webp)
 	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; */
@@ -1292,6 +1293,10 @@ a{
 	}
 	.second5{
 		height: 80vh;
+		grid-column: 1/13;
+	}
+	.second6{
+		grid-column: 1/13;
 	}
 
 	.modal2{
@@ -1312,10 +1317,10 @@ a{
 		background-position: top;
 		-webkit-filter: brightness(100%);
 		filter: brightness(100%);
-		border: solid 10px rgba(52, 121, 83, 1);
+		border: solid 2px rgba(97, 150, 255, 1);
 	}
 	.title{
-		background-color: rgba(54, 99, 74, 0.8);
+		background-color: rgba(0, 0, 0, 0.64);
 		border-radius: 10px 10px 0 0;
 		height: 80px;
 		display: block;
