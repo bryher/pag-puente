@@ -84,7 +84,7 @@
 
 }
 .des:hover{
-	background-color: rgba(0, 83, 199, 1);
+	background-color: rgba(255, 31, 64, 1);
 	color: black;
 	border-radius: 50px;
 	transition: all 0.5s;
@@ -841,6 +841,9 @@
 .moro-prim{
 	background-image: url(../img/DBS/Moro-primitivo.webp);
 }
+.ant-dbs{
+	background-image: url(../img/DBS/Antagonistas-DBS.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -1002,10 +1005,16 @@ a .ads-img{
 	font-size: 1.8em;
 }
 .titulo{
-	padding-top: 100%;
 	font-size: 1.8em;
 	color: rgba(133, 173, 255, 1);
 	text-shadow: 2px 2px 5px #000;
+
+}
+.title{
+	background-color: rgba(0, 0, 0, 0.64);
+	display: block;
+	margin-top: 70%;
+
 }
 .titulo, .titulo2, .titulo3{
 	/* margin: 0 5%; */
@@ -1143,9 +1152,15 @@ a .ads-img{
 }
 .tmanga{
 	text-align: center;
-	font-size: 2em;
-	color: #fff;
-	background-color: rgba(35, 81, 139, 0.5)
+	font-size: 3em;
+	color: rgba(75, 240, 251, 1);
+	background-color: rgba(24, 60, 119, 1);
+	display: block;
+	width: 95%;
+	margin: 12px auto auto;
+	border: solid 2px rgba(1, 39, 50, 1);
+	border-radius: 7px;
+	padding: 3px;
 }
 .categories3{
 	height: 100vh;
@@ -1161,10 +1176,6 @@ a .ads-img{
 	background-size: cover;
 	background-position: center;
 	transition-duration: 20s;
-}
-.categories2:hover, .categories3:hover{
-	background-size: contain;
-	transition-duration: .8s;
 }
 p , a, h4{
 	font-family: 'Raleway', sans-serif;
@@ -1320,13 +1331,10 @@ a{
 		border: solid 2px rgba(97, 150, 255, 1);
 	}
 	.title{
-		background-color: rgba(0, 0, 0, 0.64);
 		border-radius: 10px 10px 0 0;
 		height: 80px;
-		display: block;
 		padding-top: 15px;
 		border-radius: 0;
-		margin-top: 70%;
 	}
 }
 @media (max-width: 650px){
