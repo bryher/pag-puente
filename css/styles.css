@@ -844,6 +844,9 @@
 .ant-dbs{
 	background-image: url(../img/DBS/Antagonistas-DBS.webp);
 }
+.cabelleras{
+	background-image: url(../img/DBS/cabelleras.webp);
+}
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -1084,65 +1087,9 @@ a .ads-img{
 	background-size: cover;
 	background-position: center; */
 }
-.part3{
-	background-image: url(../img/DBS/1manga20.webp);
+.black-1{
+	background-image: url(../img/DBS/black-1.webp)
 }
-.part4{
-	background-image: url(../img/SNK/40manga91.webp);
-}
-.part1-m20{
-	background-image: url(../img/DBS/1manga20.webp);
-}
-.part1-m21{
-	background-image: url(../img/DBS/1manga21-1.webp);
-}
-.part1-m22{
-	background-image: url(../img/DBS/1manga22.webp);
-}
-.part1-m42{
-	background-image: url(../img/DBS/1manga42.webp);
-}
-.part1-m43{
-	background-image: url(../img/DBS/1manga43.webp);
-}
-.part1-m44{
-	background-image: url(../img/DBS/3manga44.webp);
-}
-.part1-m45{
-	background-image: url(../img/DBS/1manga45.webp);
-}
-.part1-m46{
-	background-image: url(../img/DBS/2manga46.webp);
-}
-.part1-m47{
-	background-image: url(../img/DBS/7manga47.webp);
-}
-.part1-m48{
-	background-image: url(../img/DBS/4manga48.webp);
-}
-
-.part1-m50{
-	background-image: url(../img/DBS/1manga50.webp);
-}
-.part1-m66{
-	background-image: url(../img/DBS/1manga66.webp);
-}
-.part1-m67{
-	background-image: url(../img/DBS/1manga67.webp);
-}
-.part1-m68{
-	background-image: url(../img/DBS/2manga68.webp);
-}
-.part1-m69{
-	background-image: url(../img/DBS/1manga69.webp);
-}
-.part1-m70{
-	background-image: url(../img/DBS/10manga70.webp);
-}
-.part1-m74{
-	background-image: url(../img/DBS/1manga74.webp);
-}
-
 /* Shingeki no Kyojin */
 .part1-m91{
 	background-image: url(../img/snk/40manga91.webp);
@@ -1161,21 +1108,6 @@ a .ads-img{
 	border: solid 2px rgba(1, 39, 50, 1);
 	border-radius: 7px;
 	padding: 3px;
-}
-.categories3{
-	height: 100vh;
-}
-.categories2{
-	height: 50vh;
-}
-.categories2, .categories3{
-	display: block;
-	grid-column: 1/13;
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	transition-duration: 20s;
 }
 p , a, h4{
 	font-family: 'Raleway', sans-serif;
