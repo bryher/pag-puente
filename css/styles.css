@@ -33,15 +33,6 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
-.second2{
-	grid-column: 1/7;
-}
-.second3{
-	grid-column: 7/13;
-}
-.second4{
-	height: 35vh;
-}
 .second5{
 	grid-column: 1/7;
 }
@@ -1090,6 +1081,9 @@ a .ads-img{
 .black-1{
 	background-image: url(../img/DBS/Rose.webp)
 }
+.moro-1{
+	background-image: url(../img/DBS/Moro-1.webp)
+}
 /* Shingeki no Kyojin */
 .part1-m91{
 	background-image: url(../img/snk/40manga91.webp);
@@ -1225,15 +1219,6 @@ a{
 	#second{
 		grid-column: 5/13;
 	}
-	.second2{
-		grid-column: 5/13;
-	}
-	.second3{
-		grid-column: 5/13;
-	}
-	.second4{
-		height: 40vh;
-	}
 	.second5{
 		height: 80vh;
 		grid-column: 1/13;
@@ -1307,12 +1292,6 @@ a{
 	}
 	.modal-contenido2{
 		width: 100%;
-	}
-	.second2, .second3{
-		grid-column: 1/13;
-	}
-	.categories2{
-		height: 70vh;
 	}
 	.tmanga{
 		font-size: 3em;
