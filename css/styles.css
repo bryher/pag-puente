@@ -1067,7 +1067,7 @@ a .ads-img{
 	transition:all .5s;
 }
 .part1{
-	background-image: url(../img/DBS/PortaManga68.webp);
+	background-image: url(../img/DBS/granola-dispara1.webp);
 }
 .part2{
 	background-image: url(../img/DBS/Moro-primitivo.webp)
@@ -1083,6 +1083,9 @@ a .ads-img{
 }
 .moro-1{
 	background-image: url(../img/DBS/Moro-1.webp)
+}
+.granola-1{
+	background-image: url(../img/DBS/granola-dispara1.webp)
 }
 /* Shingeki no Kyojin */
 .part1-m91{
