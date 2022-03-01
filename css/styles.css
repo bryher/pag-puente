@@ -60,9 +60,9 @@
 	grid-template-columns: repeat(12, 1fr);
 }
 
-.des{
-	width: 100%;
+.des,  .des2{
 	background-color: rgba(0, 0, 0, .4);
+	width: 100%;
 	color: white;
 	font-size: 2em;
 	grid-column: 7/13;
@@ -71,14 +71,14 @@
 	transition: all 0.5s;
 	margin-top: auto;
 	margin-bottom: auto;
-	height: 60%;
+	height: 40%;
 	border: solid 2px grey;
 	border-radius: 5px;
 	display: block;
 	padding-top:5vh;
 
 }
-.des p{
+.des p, .des2 p{
 	font-size: 1rem;
 	font-weight: normal;
 
@@ -90,10 +90,14 @@
 	transition: all 0.5s;
 	height: 30%;
 	border: none;
-	/* padding-top:5vh; */
+}
+.des2:hover{
+	background-color: rgba(196, 122, 3, 1);
+	border-radius: 40px;
+	transition: all 0.5s;
+	border: none;
 
 }
-
 .down-20-1{
 	height: 100vh;
 	background-image: url(../img/DBS/1manga20.webp);
@@ -1072,23 +1076,19 @@ a .ads-img{
 	transition:all .5s;
 }
 .part1{
-	/* width: 100%;
-	height: 100%; */
 	background-image: url(../img/DBS/PortaManga68.webp);
-	/* background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; */
 }
 .part2{
-	/* width: 100%;
-	height: 100%; */
 	background-image: url(../img/DBS/Moro-primitivo.webp)
-	/* background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; */
+}
+.part3{
+	background-image: url(../img/DBS/Rose.webp)
+}
+.part4{
+	background-image: url(../img/snk/40manga91.webp)
 }
 .black-1{
-	background-image: url(../img/DBS/black-1.webp)
+	background-image: url(../img/DBS/Rose.webp)
 }
 /* Shingeki no Kyojin */
 .part1-m91{
