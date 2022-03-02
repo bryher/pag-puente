@@ -14,7 +14,7 @@
 	padding-left:19.3%;
 }
 .title-prin{
-	color: rgba(255, 183, 0, 1);
+	color: #ffcb3a;
 	text-shadow: 2px 2px 5px #000;
 }
 .pag-prin{
@@ -865,20 +865,19 @@ header{
 	background: #000;
 }
 #premiun{
-	color: rgba(255, 183, 0, 1);
-  text-shadow: 2px 2px 5px #000;
+	color: #ff4f61;
 }
 #premiun:hover{
-	background: rgba(70, 65, 53, 1);
+	background: #ff4f61;
 	font-weight: bold;
-	color: rgba(255, 206, 31, 1);
+	color: #1e2425;
 }
 .btns-1{
 	color: white;
 }
 .btns-1:hover{
-	background-color: rgba(58, 73, 50, 1);
-	color: rgba(81, 255, 0, 1);
+	background-color: #511d47;
+	color: #ffcb3a;;
 	font-weight: bold;
 }
 .btns-1, #premiun, .btns-2, #premiun2, .btns-3{
@@ -969,6 +968,20 @@ header{
 	margin: auto;
 	width: 60px;
 }
+.oolong{
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	transition:all 2s;
+
+}
+.oolong:hover{
+	border-radius: 25px;
+	transition:all .2s;
+	width: 95%;
+
+}
 .ads{
 	width: 32%;
 }
@@ -1004,7 +1017,7 @@ a .ads-img{
 }
 .titulo{
 	font-size: 1.8em;
-	color: rgba(133, 173, 255, 1);
+	color: #ff4f61;
 	text-shadow: 2px 2px 5px #000;
 
 }
@@ -1022,7 +1035,7 @@ a .ads-img{
 .contenido, #contenido2{
 	height: 100vh;
 	grid-column: 5/13;
-	background: rgba(0, 30, 71, 1);
+	background: #511d47;
 }
 #contenido2{
 	display: none;
@@ -1261,6 +1274,10 @@ a{
 	.menu{
 		display: block;
 	}
+	.oolong{
+		width: 60%;
+	}
+
 	#contenido2{
 		grid-column: 1/13;
 	}
