@@ -45,25 +45,26 @@
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: left;
+	background-position: center;
 	height: 70vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	border: solid 1px #ffcb3a;
 }
 
 .des,  .des2{
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .7);
 	width: 100%;
-	color: white;
+	color: #ffcb3a;
 	font-size: 2em;
-	grid-column: 7/13;
+	grid-column: 4/10;
 	text-align: center;
 	font-weight: bold;
 	transition: all 0.5s;
 	margin-top: auto;
-	margin-bottom: auto;
-	height: 40%;
-	border: solid 2px grey;
+	margin-bottom: 25px;
+	height: 30%;
+	border: solid 2px #ffcb3a;
 	border-radius: 5px;
 	display: block;
 	padding-top:5vh;
@@ -75,18 +76,16 @@
 
 }
 .des:hover{
-	background-color: rgba(255, 31, 64, 1);
-	color: black;
+	background-color: #511d47;
+	color: #ffcb3a;
 	border-radius: 50px;
 	transition: all 0.5s;
-	height: 30%;
-	border: none;
+	height: 28%;
 }
 .des2:hover{
 	background-color: rgba(196, 122, 3, 1);
 	border-radius: 40px;
 	transition: all 0.5s;
-	border: none;
 
 }
 .down-20-1{
@@ -841,6 +840,9 @@
 }
 .cabelleras{
 	background-image: url(../img/DBS/cabelleras.webp);
+}
+.mascara{
+	background-image: url(../img/DBS/SpiderSaiyaman.webp);
 }
 .pag-prin3{
 	left: 0;
