@@ -53,21 +53,31 @@
 }
 
 .des,  .des2{
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, .5);
 	width: 100%;
 	color: #ffcb3a;
 	font-size: 2em;
-	grid-column: 4/10;
 	text-align: center;
 	font-weight: bold;
 	transition: all 0.5s;
 	margin-top: auto;
 	margin-bottom: 25px;
-	height: 30%;
-	border: solid 2px #ffcb3a;
 	border-radius: 5px;
 	display: block;
-	padding-top:5vh;
+	padding-top:4vh;
+
+}
+.des{
+	height: 30%;
+	grid-column: 4/10;
+	border: solid 2px #ffcb3a;
+}
+.des2{
+	margin-left: 10px;
+	height: 40%;
+	grid-column: 1/6;
+	border: solid 2px rgba(255, 203, 58, 0.2);
+
 
 }
 .des p, .des2 p{
@@ -84,8 +94,9 @@
 }
 .des2:hover{
 	background-color: rgba(196, 122, 3, 1);
-	border-radius: 40px;
+	border-radius: 20px;
 	transition: all 0.5s;
+	color: black;
 
 }
 .down-20-1{
