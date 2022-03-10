@@ -75,10 +75,8 @@
 .des2{
 	margin-left: 10px;
 	height: 40%;
-	grid-column: 1/6;
+	grid-column: 1/7;
 	border: solid 2px rgba(255, 203, 58, 0.2);
-
-
 }
 .des p, .des2 p{
 	font-size: 1rem;
@@ -855,6 +853,10 @@
 .mascara{
 	background-image: url(../img/DBS/SpiderSaiyaman.webp);
 }
+.namek{
+	background-image: url(../img/DBS/Namek.webp);
+}
+
 .pag-prin3{
 	left: 0;
 	width: 19.3%;
@@ -1105,15 +1107,28 @@ a .ads-img{
 .black-1{
 	background-image: url(../img/DBS/Rose.webp)
 }
+.black-2{
+	background-image: url(../img/DBS/Goku-hakai.webp)
+}
 .moro-1{
 	background-image: url(../img/DBS/Moro-1.webp)
+}
+.moro-2{
+	background-image: url(../img/DBS/Merus-recuerda.webp)
 }
 .granola-1{
 	background-image: url(../img/DBS/granola-dispara1.webp)
 }
+.granola-2{
+	background-image: url(../img/DBS/Heata.webp)
+}
 .snk-1{
 	background-image: url(../img/SNK/Carreta-titan.webp)
 }
+.snk-2{
+	background-image: url(../img/SNK/TitanBestia.webp)
+}
+
 /* Shingeki no Kyojin */
 .part1-m91{
 	background-image: url(../img/snk/40manga91.webp);
