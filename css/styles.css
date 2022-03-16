@@ -856,6 +856,9 @@
 .namek{
 	background-image: url(../img/DBS/Namek.webp);
 }
+.superman-goku{
+	background-image: url(../img/DBS/Goku-vs-Superman.webp);
+}
 
 .pag-prin3{
 	left: 0;
@@ -1074,8 +1077,8 @@ a .ads-img{
 }
 #part0{
 	grid-column: 1/13;
-	background-image: url(../img/DBS/melenas.webp);
-	height: 38vh;
+	background-image: url(../img/spoilers.png);
+	height: 50vh;
 }
 .categories{
 	width: 95%;
@@ -1110,23 +1113,53 @@ a .ads-img{
 .black-2{
 	background-image: url(../img/DBS/Goku-hakai.webp)
 }
+.black-3{
+	background-image: url(../img/DBS/black-goku.webp)
+}
+.black-4{
+	background-image: url(../img/DBS/Vegeta-rojo.webp)
+}
 .moro-1{
 	background-image: url(../img/DBS/Moro-1.webp)
 }
 .moro-2{
 	background-image: url(../img/DBS/Merus-recuerda.webp)
 }
+.moro-3{
+	background-image: url(../img/DBS/Vegeta-salva.webp)
+}
+.moro-4{
+	background-image: url(../img/DBS/Moro-vs-Vegeta.webp)
+}
+
 .granola-1{
 	background-image: url(../img/DBS/granola-dispara1.webp)
 }
 .granola-2{
 	background-image: url(../img/DBS/Heata.webp)
 }
+.granola-3{
+	background-image: url(../img/DBS/Bills-entrena-Vegeta.webp)
+}
+.granola-4{
+	background-image: url(../img/DBS/Granola-niño.webp)
+}
+.granola-5{
+	background-image: url(../img/DBS/Goku-padres.webp)
+}
+
+.granola-6{
+	background-image: url(../img/DBS/Bardock-Gine.webp)
+}
+
 .snk-1{
 	background-image: url(../img/SNK/Carreta-titan.webp)
 }
 .snk-2{
 	background-image: url(../img/SNK/TitanBestia.webp)
+}
+.snk-3{
+	background-image: url(../img/SNK/Eren-adulto.webp)
 }
 
 /* Shingeki no Kyojin */
